@@ -5,8 +5,8 @@ This repo provides an AI-powered Slack bot that allows users to upload PDF docum
 
 ## Features
 
-. Item Upload PDF documents directly in a slack channel containing the bot.
-. Item Ask questions from the content of the PDF.
-. Item Get accurate and context-based answers. 
+. Item Upload PDF documents directly in a Slack channel containing the bot
+. Item Ask questions from the content of the PDF
+. Item Get accurate and context-based answers
 
 
