@@ -9,4 +9,12 @@ This repo provides an AI-powered Slack bot that allows users to upload PDF docum
 - Ask questions about the content of the PDF
 - Get accurate and context-based answers
 
+## Setup
+
+### 1 Code Setup
+- Clone the Repository
+  ```shell script
+  git clone https://github.com/Sriteja07/Slack_qa_bot.git
+  cd Slack_qa_bot
+  ```
 
