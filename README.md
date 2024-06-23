@@ -70,6 +70,16 @@ Note: First three steps are not necessary if you have already downloaded and con
   SLACK_BOT_TOKEN = "your_slack_app_oauth_token"
   SLACK_APP_TOKEN = "your_slack_applevel_token"
   ```
+- Run the Flask server.
+  ```shell script
+  python slack_bot_handler.py
+  ```
+  Note: The Flask app's port must match with your ngrok URL's port.
+- Go to your slack and in one of your channles invite the pdf bot to the channel.
+  ```shell script
+  /invite @your_bot_name
+  ```
+- Upload a PDF file and ask a question in your Slack workspace. The bot should respond with answers.
   
   
   
