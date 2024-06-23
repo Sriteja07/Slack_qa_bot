@@ -84,6 +84,7 @@ Note: First three steps are not necessary if you have already downloaded and con
   /invite @your_bot_name
   ```
 - Upload a PDF file and ask a question in your Slack workspace. The bot should respond with answers.
+  
   Note: If you do not see any results, or facing issues try restarting the Flask server.
   
   
