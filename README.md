@@ -52,11 +52,11 @@ Note: First three steps are not necessary if you have already downloaded and con
 - Choose "From Scratch" and provide a name for the app, and select the workspace where you want to install it.
 - Navigate to "OAuth & Permissions" in the features section present in sidebar. Scroll down to "scopes: and add the following bot token scopes
   
-      ```chat:write```  = to post messages.
-      ```files:read```  = to read files.
-      ```files:write``` = to write messages.
-      ```app_mentions:read```  = to read messages that directly mention the bot.
-      ```channels:history``` = view messages and other content in public channels that the bot has been added to.
+ ```chat:write```  = to post messages.
+ ```files:read```  = to read files.
+ ```files:write``` = to write messages.
+ ```app_mentions:read```  = to read messages that directly mention the bot.
+ ```channels:history``` = view messages and other content in public channels that the bot has been added to.
   
      
   
