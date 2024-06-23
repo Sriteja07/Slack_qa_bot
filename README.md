@@ -51,7 +51,7 @@ Note: First three steps are not necessary if you have already downloaded and con
 - Navigate to the [Slack API site](https://api.slack.com/apps) and click 'Create New App".
 - Choose "From Scratch" and provide a name for the app, and select the workspace where you want to install it.
 - Navigate to "OAuth & Permissions" in the features section present in sidebar. Scroll down to "scopes: and add the following bot token scopes.
-      - 'chat:write' - to post messages.
+      - ```chat:write``` - to post messages.
      
   
 
