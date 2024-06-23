@@ -50,15 +50,26 @@ Note: First three steps are not necessary if you have already downloaded and con
 ### 3. Slack Setup
 - Navigate to the [Slack API site](https://api.slack.com/apps) and click 'Create New App".
 - Choose "From Scratch" and provide a name for the app, and select the workspace where you want to install it.
-- Navigate to "OAuth & Permissions" in the features section present in sidebar. Scroll down to "scopes: and add the following bot token scopes
+- Navigate to "OAuth & Permissions" in the features section present in sidebar. Scroll down to "Scopes" and add the following bot token scopes
   
   - ```chat:write```  = to post messages.
   - ```files:read```  = to read files.
   - ```files:write``` = to write messages.
   - ```app_mentions:read```  = to read messages that directly mention the bot.
   - ```channels:history``` = view messages and other content in public channels that the bot has been added to.
-  
-     
-  
+- Scroll up and install the app to your workspace. Copy the OAuth token provided. Then Click allow.
+- Click on event subscriptions in the sidebar and turn on the Enable events toggle.
+- Enter your ngrok URL in the request URL followed by '/slack/events' like given below ```https://your_public_ngrok_url/slack/events``` and get it verified by returning the challenge request from your Flask app. (slack_bot_handler.py)
+- Go to "Socket Mode" in your app settings and enable it. Generate an App-Level Token with the scope ```connections:write``` and copy it.
+- Save changes and reinstall the app into the workspace.
 
-
+### 4. Running the bot
+- Enter your contents in the .env file. The .env file must look like below after finishing your entries.
+  ```shell script
+  OPENAI_API_KEY = "your_openai_key"
+  SLACK_BOT_TOKEN = "your_slack_app_oauth_token"
+  SLACK_APP_TOKEN = "your_slack_applevel_token"
+  ```
+  
+  
+  
