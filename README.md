@@ -11,10 +11,21 @@ This repo provides an AI-powered Slack bot that allows users to upload PDF docum
 
 ## Setup
 
-### 1 Code Setup
-- Clone the Repository
+### 1. Code Setup
+- 1. Clone the Repository
   ```shell script
   git clone https://github.com/Sriteja07/Slack_qa_bot.git
   cd Slack_qa_bot
   ```
+- 2. Create and activate a virtual environment
+  ```shell script
+  python3 -m venv venv
+  source  venv\Scripts\activate
+  ```
+- 3. Install dependencies
+  ```shell script
+  pip install -r requirements.txt
+  ```
+  
+
 
