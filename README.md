@@ -78,8 +78,8 @@ Note: First three steps are not necessary if you have already downloaded and con
   ```shell script
   python slack_bot_handler.py
   ```
-  Note: The Flask app's port must match with your ngrok URL's port.
-- Go to your slack and in one of your channles invite the pdf bot to the channel.
+  Note: The Flask app's port must match your ngrok URL's port.
+- Go to your Slack and in one of your channels invite the pdf bot to the channel.
   ```shell script
   /invite @your_bot_name
   ```
