@@ -43,7 +43,15 @@ This repo provides an AI-powered Slack bot that allows users to upload PDF docum
      ```shell script
        ngrok http 127.0.0.1:your-port
      ```
-     This will provide you with a public URL and it is needed while setting up the Event Subscription settings of the Slack Bot. Copy it.
+     This will provide you with a public URL and it is needed while setting up the Event Subscription settings of the Slack Bot. Copy it and save it.
+
+Note: First three steps are not necessary if you have already downloaded and configured ngrok in your system.
+
+### 3. Slack Setup
+- Navigate to the [Slack API site](https://api.slack.com/apps) and click 'Create New App".
+- Choose "From Scratch" and provide a name for the app, and select the workspace where you want to install it.
+- Navigate to "OAuth & Permissions" in the features section present in sidebar. Scroll down to "scopes: and add the following bot token scopes.
+      - 'chat:write' - to post messages.
      
   
 
