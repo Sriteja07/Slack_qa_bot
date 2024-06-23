@@ -60,6 +60,10 @@ Note: First three steps are not necessary if you have already downloaded and con
 - Scroll up and install the app to your workspace. Copy the OAuth token provided. Then Click allow.
 - Click on event subscriptions in the sidebar and turn on the Enable events toggle.
 - Enter your ngrok URL in the request URL followed by '/slack/events' like given below ```https://your_public_ngrok_url/slack/events``` and get it verified by returning the challenge request from your Flask app. (slack_bot_handler.py)
+- Scroll down to 'Subscribe to bot events' and Add the following Bot user events.
+  - ```app_mention```  = Subscibe to message events that mentions your bot.
+  - ```message.channels```  = Subscibe to messages posted on your channels.
+  - ```message.groups``` = Subscibe to messages posted on your channels.
 - Go to "Socket Mode" in your app settings and enable it. Generate an App-Level Token with the scope ```connections:write``` and copy it.
 - Save changes and reinstall the app into the workspace.
 
@@ -80,6 +84,7 @@ Note: First three steps are not necessary if you have already downloaded and con
   /invite @your_bot_name
   ```
 - Upload a PDF file and ask a question in your Slack workspace. The bot should respond with answers.
+  Note: If you do not see any results, or facing issues try restarting the Flask server.
   
   
   
