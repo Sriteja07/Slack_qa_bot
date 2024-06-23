@@ -31,6 +31,15 @@ This repo provides an AI-powered Slack bot that allows users to upload PDF docum
   ```shell script
   pip install -r requirements.txt
   ```
+
+### 2. Server Setup
+- 1. Download the ngrok from [here](https://ngrok.com/download)
+- 2. Get your authtoken from [here](https://dashboard.ngrok.com/get-started/your-authtoken)
+- 3. Open your ngrok shell and config your authtoken like below
+     ```shell script
+       ngrok config add-authtoken $YOUR_AUTHTOKEN
+       ```
+     
   
 
 
